@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #F0141E;
+    padding: 40px 50px;
+}
+
+header {
+    background-color: #ffffff;
+    border-radius: 10px;
+    
+    box-shadow: 10px 14px 18px 3px rgba(0,0,0,0.39);
+}
+
+/* topo logo */
+
+.topo {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin-left: 50px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 50px;
+}
+
+.logo {
+    padding: 10px;
+    width: 170px;
+}
+
+/* fim topo logo */
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#caixa {
+    padding: 16px;
+    margin:  0 480px 0 480px ;
+    box-shadow: 10px 14px 25px -3px rgba(0,0,0,0.68);
+    background-color: rgb(220, 220, 220);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#botao {
+    padding: 8px;
+    margin:  0 580px 0 580px ;
+    background-color: #F0141E;
+    border-radius: 10px;
+
+}
+
+#botao, value {
+    color: white;
+    font: 90 20px'Archivo Black', sans-serif;
+    box-shadow: 10px 14px 25px -15px rgba(0,0,0,0.68);
+}
+
+#mensagem {
+    text-align: center;
+    font: 90 20px'Archivo Black', sans-serif;
+    margin-top: 20px;
+    
+}
+
+
+
+/* #caixa:focus, input:focus, select:focus {
+    outline: 0;
+} */
+
+#imagem1 {
+    width: 300px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+}
